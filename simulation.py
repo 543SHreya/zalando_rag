@@ -10,7 +10,11 @@ import os
 # ---------------------------
 
 # Set your OpenAI API Key
+import streamlit as st
+import openai
+
 openai.api_key = st.secrets["OPENAI_API_KEY"]
+
 # ---------------------------
 # 2) Load Preprocessed Data
 # ---------------------------
