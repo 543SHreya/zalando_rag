@@ -10,8 +10,7 @@ import os
 # ---------------------------
 
 # Set your OpenAI API Key
-openai.api_key = os.getenv("OPENAI_API_KEY", "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")
-
+openai.api_key = st.secrets["OPENAI_API_KEY"]
 # ---------------------------
 # 2) Load Preprocessed Data
 # ---------------------------
